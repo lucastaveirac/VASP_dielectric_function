@@ -2,7 +2,7 @@
 
 #This code was developed by Lucas Taveira Caleiro and aims to extract automatically imaginary and real parts of the dielectric function from the VASP vasprun.xml file
 
-#Look for vasprun.xml file in the same directory as plotoptics.sh file
+#Look for vasprun.xml file in the same directory as extract_dielectric.sh file
 if [[ -f vasprun.xml ]]
 then
 
@@ -20,7 +20,7 @@ echo "vasprun.xml is not in the same folder as this shell. Please add vasprun.xm
 fi
 
 
-#Look for vasprun.xml file in the same directory as plotoptics.sh file
+#Look for vasprun.xml file in the same directory as extract_dielectric.sh file
 if [[ -f vasprun.xml ]]
 then
 
